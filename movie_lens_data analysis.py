@@ -1,5 +1,4 @@
-# EM-624
-# Exercise06
+
 
 # This program will read three .dat files from the MovieLens data set (users, movies
 # and ratings). Print the first 5 lines of each, then merge them into a single Pandas
@@ -10,8 +9,6 @@ import pandas as pd
 
 # Understand dataset
 # data = pd.read_table('users.dat')
-# print data
-# 6038   6040::M::25::6::11106
 
 # Set the column names and read each .dat file into a dataframe
 unames = ['user_id', 'gender', 'age', 'occupation', 'zip']
